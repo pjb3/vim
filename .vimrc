@@ -4,7 +4,7 @@ filetype plugin indent on
 
 runtime macros/matchit.vim
 
-colorscheme pyte
+colorscheme vividchalk
 
 set tabstop=2
 set softtabstop=2

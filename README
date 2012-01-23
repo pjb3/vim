@@ -1,0 +1,7 @@
+These are my vim config files.  To use:
+
+    cd
+    git clone git://github.com/pjb3/vim.git .vim
+    ln -s .vim/.vimrc
+    cd .vim
+    git submodule update --init

@@ -42,3 +42,6 @@
 	path = bundle/vim-ruby
 	url = http://github.com/vim-ruby/vim-ruby.git
   ignore = dirty
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = http://github.com/vim-scripts/bufexplorer.zip.git

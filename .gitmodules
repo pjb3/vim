@@ -45,3 +45,8 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = http://github.com/vim-scripts/bufexplorer.zip.git
+  ignore = dirty
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = http://github.com/tpope/vim-fugitive.git
+  ignore = dirty

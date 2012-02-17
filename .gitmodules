@@ -50,3 +50,9 @@
 	path = bundle/vim-fugitive
 	url = http://github.com/tpope/vim-fugitive.git
   ignore = dirty
+[submodule "bundle/vim-clojure"]
+	path = bundle/vim-clojure
+	url = https://github.com/vim-scripts/VimClojure.git
+[submodule "bundle/screen"]
+	path = bundle/screen
+	url = https://github.com/ervandew/screen.git

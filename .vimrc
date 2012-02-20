@@ -101,3 +101,12 @@ map <leader>c :CoffeeCompile vert<cr>
 
 " Because I am an idiot
 abbr familiy family
+
+" Settings for VimClojure
+let vimclojure#HighlightBuiltins=1
+let vimclojure#ParenRainbow=1
+
+let g:ScreenImpl='Tmux'
+noremap <leader>S :ScreenShell
+vnoremap <leader>s :ScreenSend<CR>
+noremap <leader>s :ScreenSend<CR>

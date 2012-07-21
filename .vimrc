@@ -110,3 +110,10 @@ let g:ScreenImpl='Tmux'
 noremap <leader>S :ScreenShell
 vnoremap <leader>s :ScreenSend<CR>
 noremap <leader>s :ScreenSend<CR>
+
+command W w
+command Wa wa
+command WA wa
+
+" other filetypes plugins don't understand
+au BufNewFile,BufRead *.mobile.erb set filetype=html.eruby.eruby-rails

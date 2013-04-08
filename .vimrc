@@ -4,7 +4,9 @@ filetype plugin indent on
 
 runtime macros/matchit.vim
 
-colorscheme vividchalk
+syntax enable
+set background=light
+colorscheme solarized
 
 set tabstop=2
 set softtabstop=2
@@ -97,6 +99,13 @@ map <leader>a :Ack <cword><cr>
 map <leader>s :Ack <cword> app config lib script spec test vendor<cr>
 map <leader>p "_cw<c-R>"
 map <leader>c :CoffeeCompile vert<cr>
+
+if exists(":Tabularize")
+  nmap <Leader>a= :Tabularize /=<CR>
+  vmap <Leader>a= :Tabularize /=<CR>
+  nmap <Leader>a: :Tabularize /:\zs<CR>
+  vmap <Leader>a: :Tabularize /:\zs<CR>
+endif
 
 " Because I am an idiot
 abbr familiy family
